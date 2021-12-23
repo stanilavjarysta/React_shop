@@ -2,14 +2,8 @@ import React from 'react';
 import Product from "./Product";
 
 
-// const Home = ({changeWindow}) => {
-//     return (
-//         <div className="btn" onClick={ () => changeWindow(2)}>
-//             Start Game
-//         </div>
-//     );
-// };
-const Home = ({money, products, image, title}) => {
+
+const Home = ({money, products, image, title, changeWindow}) => {
     return (
         <div className="userComp">
             <div className="userTop d-flex space-btw">
@@ -20,6 +14,11 @@ const Home = ({money, products, image, title}) => {
                     <h2>Products: {title.length}</h2>
                 </div>
             </div>
+
+            <div className="btn" onClick={ () => changeWindow(2)}>
+                Start
+            </div>
+
 
             <div className="d-flex f-wrap">
                 {products.map((x, index) => <Product buyProduct={false} item={x} key={index}/>)}

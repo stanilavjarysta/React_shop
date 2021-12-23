@@ -2,75 +2,7 @@ import './App.css';
 import {useState} from "react";
 import Home from "./components/Home";
 import Shopping from "./components/Shopping";
-
-
-// function App() {
-//     const [getWindowNum, setWindowNum] = useState(1)
-//
-//     function change(num) {
-//         setWindowNum(num)
-//     }
-//
-//
-//     function buyUpgrade(index) {
-//         if(index === 1) {
-//             if(getPoints >= 100) {
-//                 setPointsToAdd(2)
-//                 setPoints(getPoints - 100)
-//                 setWindowNum(2)
-//             }
-//         }
-//         if(index === 2) {
-//             if(getPoints >= 500) {
-//                 setPointsToAdd(5)
-//                 setPoints(getPoints - 500)
-//                 setWindowNum(2)
-//             }
-//         }
-//         if(index === 3) {
-//             if(getPoints >= 1000) {
-//                 setPointsToAdd(10)
-//                 setPoints(getPoints - 1000)
-//                 setWindowNum(2)
-//             }
-//         }
-//         if(index === 4) {
-//             if(getPoints >= 300) {
-//                 setPoints(getPoints - 300)
-//                 setWindowNum(2)
-//                 setColor('#ccdaef')
-//             }
-//         }
-//         if(index === 5) {
-//             if(getPoints >= 200) {
-//                 setPoints(getPoints - 200)
-//                 setWindowNum(2)
-//                 setCookie("https:png")
-//             }
-//         }
-//         if(index === 6) {
-//             if(getPoints >= 400) {
-//                 setPoints(getPoints - 400)
-//                 setWindowNum(2)
-//                 setSpin(true)
-//             }
-//         }
-//     }
-//
-//     return (
-//         <div className="App" style={{backgroundColor: getColor}}>
-//             {getWindowNum === 1 && <Home changeWindow={change}/>}
-//
-//             {getWindowNum === 2 && <Shopping changeWindow={change}
-//                                          cookie={getCookie}
-//                                          points={getPoints}
-//                                          spin={getSpin}
-//                                          cookieClick={addPoints}/>}
-//
-//             {getWindowNum === 3 && <Product changeWindow={change} upgrade={buyUpgrade}/>}
-//         </div>
-//     );
-// }
+import Product from "./components/Product";
 
 function App() {
     const items = [
@@ -108,10 +40,14 @@ function App() {
     const [getMoney, setMoney] = useState(500)
     const [getHomeProducts, setHomeProducts] = useState([])
     const [getTitle, setTitle] = useState([])
+    const [getWindowNum, setWindowNum] = useState()
 
+    function change(num) {
+        setWindowNum(num)
+            }
 
     const profileImages = [
-        "https://images.emojiterra.com/twitter/v13.1/512px/1f610.png",
+        "data:image/png;base64,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",
            ]
 
     function buyProduct(id) {
@@ -119,11 +55,7 @@ function App() {
             setMoney(getMoney - items[id].price)
             setHomeProducts([...getHomeProducts, items[id]])
             setTitle([...getTitle, items[id]])
-            // ARBA
-            // const prods = getUserProducts
-            // prods.push(items[id])
-            // setUserProducts(prods)
-        }
+            }
     }
 
 
@@ -131,8 +63,13 @@ function App() {
         <div className="App d-flex" >
             <Home image={profileImages[getHomeProducts]} title={getTitle} money={getMoney} products={getHomeProducts}/>
             <Shopping buy={buyProduct} products={items}/>
+            {getWindowNum === 1 && <Home changeWindow={change}/>}
+            {getWindowNum === 2 && <Shopping changeWindow={change}/>}
+            {getWindowNum === 3 && <Product changeWindow={change}/>}
         </div>
     );
 }
 
 export default App;
+
+
