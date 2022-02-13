@@ -1,18 +1,16 @@
-import React from 'react';
-import Product from "./Product";
+import {Link} from "react-router-dom";
 
-const Shopping = ({products, buy, changeWindow}) => {
+const Toolbar = () => {
+
     return (
+        <div className="toolbar">
+            <Link to="/">Start Game Window</Link>
+            <Link to="/main">Main Window</Link>
+            <Link to="/trader">Trader Window</Link>
+            <Link to="/arena">Arena Window</Link>
 
-
-        <div className="d-flex f-wrap grow1">
-            {products.map(x => <Product buyProduct={buy} item={x} key={x.id}/>)}
-
-        <div className="btn" onClick={() => changeWindow(1)}>Home</div>
-            <div className="btn" onClick={() => changeWindow(3)}>Product</div>
-    </div>
-
+        </div>
     );
 };
 
-export default Shopping;
+export default Toolbar;
