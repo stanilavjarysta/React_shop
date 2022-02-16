@@ -19,6 +19,12 @@ a {
 .p-20 {
     padding: 20px;
 }
+.p-100 {
+    padding-top: 100px;
+}
+.h100 {
+    height: 100px;
+}
 .d-flex {
     display: flex;
 }
@@ -49,11 +55,6 @@ a {
 .grow1 {
     flex: 1;
 }
-
-.h100 {
-    height: 100px;
-}
-
 .card {
 
     padding: 1rem;
@@ -73,7 +74,7 @@ a {
     display: flex;
     background-color: darkred;
     color: #f59f0b;
-    font-weight: 100;
+    justify-content: space-evenly;
 }
 
 .toolbar a {
@@ -83,7 +84,7 @@ a {
 }
 
 .btn {
-    padding: 20px;
+    padding: 5rem;
     background-color: #3f3f3f;
     color: white;
     text-align: center;
@@ -104,9 +105,9 @@ a {
 }
 
 .slot {
-    height: 100px;
-    width: 100px;
-    border: 1px solid;
+    height: 12rem;
+    width: 12rem;
+    border: 2px solid;
     margin: 15px;
 }
 
@@ -134,7 +135,7 @@ a {
 }
 
 .effectsWrapper {
-    width: 200px;
+    width: 35rem;
     white-space: pre-line;
 
 }
@@ -142,11 +143,11 @@ a {
 .arenaCard {
     padding: 10px;
     border: 1px solid;
-    margin: 50px;
+    margin: 6rem;
 }
 
 .arenaCard > img {
-    width: 300px;
+    width: 35rem;
 }
 
 .wrapper {

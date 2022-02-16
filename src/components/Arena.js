@@ -4,8 +4,7 @@ import ArenaStat from "./ArenaStat";
 const Arena = ({player, item, gameState, healthProgress, energyProgress}) => {
 
     const emptyTemplate = <div className="arena d-flex a-center">
-        <h2>Find Enemy To Fight</h2>
-    </div>
+         </div>
 
     const template =  <div className="arena">
         <img src={item.image} alt=""/>

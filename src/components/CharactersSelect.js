@@ -106,7 +106,7 @@ const CharactersSelect = () => {
     }
 
     return (
-        <div className="d-flex a-center h100">
+        <div className="d-flex a-center ">
 
             {characters.map((x, i) =>
                 <div className="card" key={i} onClick={() => setChar(x)}>

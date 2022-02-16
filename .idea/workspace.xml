@@ -6,9 +6,8 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Arena.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Arena.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CharactersSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CharactersSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/trade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/trade.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArenaWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArenaWindow.js" afterDir="false" />
     </list>
@@ -19,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="24HA3GmuCsiqjBIHjXEAUcDiHz0" />
   <component name="ProjectViewState">
@@ -66,7 +68,7 @@
       <workItem from="1644220919580" duration="13445000" />
       <workItem from="1644301002084" duration="33599000" />
       <workItem from="1644485645243" duration="56662000" />
-      <workItem from="1645021204726" duration="6066000" />
+      <workItem from="1645021204726" duration="13626000" />
     </task>
     <servers />
   </component>

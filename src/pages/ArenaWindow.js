@@ -684,7 +684,7 @@ const ArenaWindow = () => {
             <div className="d-flex column j-center">
                 {getGameState === 0 && <div>
                     <div className="btn" onClick={findEnemy}>Find Enemy</div>
-                    <div className="btn mt-10">Leave Arena</div>
+
                 </div> }
                 {getGameState === 1 && <div className={getDisable ? "btn disabled" : "btn"} onClick={attack}>Attack</div>}
                 {getGameState === 2 && <div className={getDisable ? "btn disabled" : "btn"} onClick={()=> setGameState(0)}>Fight Again</div>}

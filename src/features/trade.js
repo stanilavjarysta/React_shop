@@ -466,8 +466,6 @@ export const characterSlice = createSlice({
 
                 state.value.weapon.effects.map(x => removeEffect(x))
 
-
-
                 state.value.inventory.push(state.value.weapon)
             }
 
