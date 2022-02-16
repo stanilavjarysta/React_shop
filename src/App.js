@@ -7,11 +7,9 @@ import TraderWindow from "./pages/TraderWindow";
 import ArenaWindow from "./pages/ArenaWindow";
 import {useSelector} from "react-redux";
 
-
 function App() {
 
 const char = useSelector((state)=>state.character.value.character)
-
 
     return (
         <div className="App">
@@ -29,5 +27,4 @@ const char = useSelector((state)=>state.character.value.character)
         </div>
     );
 }
-
 export default App;

@@ -452,10 +452,10 @@ export const characterSlice = createSlice({
             }
         },
         setWeapon: (state, {payload}) => {
-            // Remove weapon from inventory
+
             state.value.inventory = state.value.inventory.filter((x, i) => i !== payload.index)
 
-            // Take item from slot and add to inventory
+
             if (state.value.weapon) {
                 function removeEffect(effectCode) {
                     const statName = Object.keys(effects[effectCode].effect)[0]
@@ -471,8 +471,7 @@ export const characterSlice = createSlice({
                 state.value.inventory.push(state.value.weapon)
             }
 
-            // Set new item to slot
-            state.value.weapon = payload.item
+           state.value.weapon = payload.item
 
 
             function getEffect(effectCode) {

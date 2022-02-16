@@ -3,11 +3,11 @@ import ArenaStat from "./ArenaStat";
 
 const Arena = ({player, item, gameState, healthProgress, energyProgress}) => {
 
-    const emptyTemplate = <div className="arenaCard d-flex a-center">
+    const emptyTemplate = <div className="arena d-flex a-center">
         <h2>Find Enemy To Fight</h2>
     </div>
 
-    const template =  <div className="arenaCard">
+    const template =  <div className="arena">
         <img src={item.image} alt=""/>
         <div className="wrapper">
             <div className="progressHealth" style={{width: healthProgress + "%"}}/>

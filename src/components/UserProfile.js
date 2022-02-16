@@ -13,7 +13,7 @@ const UserProfile = () => {
     }
     return (
         <div>
-               <div className="br-p card d-flex p-20">
+               <div className="card d-flex column p-20">
                 <img src={char.image} alt=""/>
                 <h3>Race: {char.race}</h3>
                 <p>Damage: {char.damage}</p>

@@ -630,7 +630,6 @@ const ArenaWindow = () => {
         if(getPlayerEnergy >= weapon.energyPerHit) {
             setDisable(true)
 
-            // PLAYER DOES DAMAGE
             const playerDamage = random(weapon.maxDamage) + char.damage
             const playerDamageInPercent = getPercent(monsters[getMonster].health, playerDamage)
 
@@ -641,13 +640,11 @@ const ArenaWindow = () => {
                 setMonsterHealth(getMonsterHealth - playerDamageInPercent)
             }
 
-            // SUBTRACT ENERGY
             const energyConsumed = getPercent(char.energy, weapon.energyPerHit)
             setPlayerEnergy(getPlayerEnergy - energyConsumed)
         }
 
 
-        // MONSTER DOES DAMAGE
         const monsterDamage = random(monsters[getMonster].maxDamage)
         const monsterDamageInPercent = getPercent(char.health, monsterDamage)
 
