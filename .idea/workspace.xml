@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c7c2cef-aa19-4ceb-8893-0faac9e1407d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/context/MainContext" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Arena.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Arena.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CharactersSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CharactersSelect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/trade.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/trade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Arena.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArenaStat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CharactersSelect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inventory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Items.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shoping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserProfile.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ArenaWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArenaWindow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +46,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sjary\WebstormProjects\type3_react\src" />
-      <recent name="C:\Users\sjary\WebstormProjects\type3_react\src\pages" />
       <recent name="C:\Users\sjary\WebstormProjects\type3_react\src\components" />
+      <recent name="C:\Users\sjary\WebstormProjects\type3_react\src\pages" />
       <recent name="C:\Users\sjary\WebstormProjects\type3_react\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -68,7 +74,9 @@
       <workItem from="1644220919580" duration="13445000" />
       <workItem from="1644301002084" duration="33599000" />
       <workItem from="1644485645243" duration="56662000" />
-      <workItem from="1645021204726" duration="13626000" />
+      <workItem from="1645021204726" duration="17349000" />
+      <workItem from="1645082711270" duration="10108000" />
+      <workItem from="1645127176964" duration="11585000" />
     </task>
     <servers />
   </component>

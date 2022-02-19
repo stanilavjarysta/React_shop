@@ -9,12 +9,12 @@ import {useSelector} from "react-redux";
 
 function App() {
 
-const char = useSelector((state)=>state.character.value.character)
+    const char = useSelector((state)=>state.character.value.character)
 
     return (
         <div className="App">
             <BrowserRouter>
-            {char && <Toolbar/>}
+                {char && <Toolbar/>}
 
                 <Routes>
                     <Route path="/" element={<StartGameWindow/>}  />

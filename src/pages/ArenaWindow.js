@@ -618,7 +618,6 @@ const ArenaWindow = () => {
         setDrop(getDrop.filter((x, i) => i !== index))
     }
 
-
     function attack() {
         if(getDisable) return
         const random = (num) => Math.round(Math.random()*num)

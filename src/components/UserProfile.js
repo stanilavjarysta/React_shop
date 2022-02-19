@@ -2,7 +2,6 @@ import React from 'react';
 import {useSelector, useDispatch} from "react-redux";
 import {disarmWeapon} from "../features/trade";
 
-
 const UserProfile = () => {
     const dispatch = useDispatch()
     const char = useSelector((state) => state.character.value.character)

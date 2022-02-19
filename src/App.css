@@ -1,9 +1,8 @@
 .App {
-    height: 80rem;
+    height: auto;
     background-color: lightcoral;
     padding: 3rem;
 }
-
 * {
     font-family: monospace;
 }
